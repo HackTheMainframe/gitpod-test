@@ -1,5 +1,4 @@
-
+# Commands to start on workspace startup
 tasks:
-- init: ./gradlew compile
-  command: ./gradlew run
-
+  - init: git checkout
+    command: ./gradlew run
